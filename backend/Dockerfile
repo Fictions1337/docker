@@ -10,4 +10,4 @@ COPY app.py .
 
 EXPOSE 8000
 
-CMD [ "fastapi", "dev", "app.py" ]
+CMD [ "fastapi", "run", "app.py" ]
